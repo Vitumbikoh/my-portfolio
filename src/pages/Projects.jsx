@@ -45,7 +45,7 @@ const Projects = () => {
               </div>
               <div className="bg-blue-50 py-2 px-6 text-right">
                 <a
-                  href="#"
+                  href="/about"
                   className="text-blue-600 font-semibold hover:text-blue-800 transition"
                 >
                   View Details &rarr;

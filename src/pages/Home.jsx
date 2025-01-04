@@ -34,7 +34,7 @@ const Home = () => {
 
               <button className="bg-gray-800 text-white px-8 py-3 rounded-full shadow-md hover:bg-gray-700 transition w-full md:w-auto">
                 <a
-                  href="/Matthews Gondwe CV.pdf"
+                  href="/MatthewsGondweCV.pdf"
                   download
                   className="w-full md:w-auto"
                 >
