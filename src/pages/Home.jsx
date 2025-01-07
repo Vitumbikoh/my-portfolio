@@ -13,7 +13,10 @@ const Home = () => {
         {/* Hero Section */}
         <div className="flex flex-col md:flex-row items-center justify-between py-20 md:py-28">
           {/* Left Content */}
-          <div className="text-center md:text-left md:w-1/2">
+          <div
+            className="text-center md:text-left md:w-1/2 animate-fade-in"
+            style={{ animationDelay: "0.2s" }}
+          >
             <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
               Hello, I'm <span className="text-blue-600">Matthews Gondwe</span>
             </h1>
@@ -23,7 +26,7 @@ const Home = () => {
               presence.
             </p>
             <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-6">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-full shadow-md hover:bg-blue-500 transition w-full md:w-auto">
+              <button className="bg-blue-600 text-white px-8 py-3 rounded-full shadow-md hover:bg-blue-500 hover:-translate-y-1 transform transition w-full md:w-auto">
                 <a
                   href="mailto:matthewgondwe1@gmail.com"
                   className="w-full md:w-auto"
@@ -32,7 +35,7 @@ const Home = () => {
                 </a>
               </button>
 
-              <button className="bg-gray-800 text-white px-8 py-3 rounded-full shadow-md hover:bg-gray-700 transition w-full md:w-auto">
+              <button className="bg-gray-800 text-white px-8 py-3 rounded-full shadow-md hover:bg-gray-700 hover:-translate-y-1 transform transition w-full md:w-auto">
                 <a
                   href="/MatthewsGondweCV.pdf"
                   download
@@ -45,8 +48,11 @@ const Home = () => {
           </div>
 
           {/* Right Content */}
-          <div className="mt-12 md:mt-0 md:w-1/2 flex justify-center">
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-xl border-4 border-blue-600">
+          <div
+            className="mt-12 md:mt-0 md:w-1/2 flex justify-center animate-fade-in"
+            style={{ animationDelay: "0.4s" }}
+          >
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-xl border-4 border-blue-600 hover:shadow-2xl transition transform hover:scale-105">
               <img
                 src="Banner.jpg"
                 alt="Matthews Gondwe"
@@ -55,13 +61,17 @@ const Home = () => {
             </div>
           </div>
         </div>
+
         {/* Services Section */}
-        <Services /> {/* Use the Services component here */}
+        <div className="animate-fade-in" style={{ animationDelay: "0.6s" }}>
+          <Services /> {/* Use the Services component here */}
+        </div>
+
         {/* Skills and Education Section */}
-        <div className="mt-16">
+        <div className="mt-16 animate-fade-in" style={{ animationDelay: "0.8s" }}>
           <Skills />
         </div>
-        <div className="mt-16">
+        <div className="mt-16 animate-fade-in" style={{ animationDelay: "1s" }}>
           <Education />
         </div>
       </div>

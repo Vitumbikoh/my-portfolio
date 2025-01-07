@@ -6,17 +6,19 @@ const Experience = () => {
       role: "Enumerator",
       company: "National Statistical Office",
       description:
-        "Developed web applications and solutions, created system documentation to improve efficiency.",
+        "Collected, verified, and reported data for national surveys and censuses. Ensured accurate data entry and maintained confidentiality.",
       duration: "2018",
       employmentType: "Contract",
-    },{
+    },
+    {
       role: "Yellow Card Brand Ambassador",
       company: "Utmost Marketing",
       description:
-        "Developed web applications and solutions, created system documentation to improve efficiency.",
+        "Promoted Yellow Card cryptocurrency services by educating potential clients on its benefits. Increased user engagement through strategic marketing campaigns and client onboarding support.",
       duration: "2023 – 2024",
       employmentType: "Internship",
     },
+
     {
       role: "Information Technology Intern",
       company: "Ntha Foundation",

@@ -56,7 +56,7 @@ const Skills = () => {
           </div>
 
           {/* Tools & Technologies */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
+          {/* <div className="bg-white shadow-lg rounded-lg p-6">
             <h3 className="text-2xl font-semibold text-purple-600 mb-4">
               Tools & Technologies
             </h3>
@@ -67,10 +67,10 @@ const Skills = () => {
               <li>Ngrok</li>
               <li>Infinity Free Hosting</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Data Collection */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
+          {/* <div className="bg-white shadow-lg rounded-lg p-6">
             <h3 className="text-2xl font-semibold text-yellow-600 mb-4">
               Data Collection
             </h3>
@@ -78,10 +78,10 @@ const Skills = () => {
               <li>Enumerator for National Statistical Office - Malawi</li>
               <li>Data Analysis and Reporting</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Other Skills */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
+          {/* <div className="bg-white shadow-lg rounded-lg p-6">
             <h3 className="text-2xl font-semibold text-teal-600 mb-4">
               Other Skills
             </h3>
@@ -91,7 +91,7 @@ const Skills = () => {
               <li>Photography Basics</li>
               <li>Nutritional Recipe Development</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

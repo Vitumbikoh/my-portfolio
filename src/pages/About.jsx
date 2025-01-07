@@ -61,7 +61,7 @@ const About = () => {
       </div>
 
       {/* Vision Section */}
-      <div className="bg-gray-800 text-white py-16 mt-12">
+      {/* <div className="bg-gray-800 text-white py-16 mt-12">
         <div className="container mx-auto px-6 lg:px-20">
           <h3 className="text-3xl font-bold text-center mb-8">My Vision</h3>
           <p className="text-center leading-relaxed max-w-3xl mx-auto text-lg">
@@ -70,7 +70,7 @@ const About = () => {
             leave a lasting impact in the ever-evolving field of technology.
           </p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

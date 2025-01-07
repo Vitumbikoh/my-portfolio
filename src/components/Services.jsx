@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode, faMobileAlt, faPaintBrush } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   return (
@@ -8,9 +10,9 @@ const Services = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Service Card 1 */}
-        <div className="bg-white shadow-md rounded-lg p-8 text-center hover:shadow-lg transition">
+        <div className="bg-white shadow-md rounded-lg p-8 text-center hover:shadow-lg hover:-translate-y-2 transform transition duration-300 ease-in-out">
           <div className="text-blue-600 text-5xl mb-4">
-            <i className="fas fa-code"></i>
+            <FontAwesomeIcon icon={faCode} />
           </div>
           <h3 className="text-xl font-semibold text-gray-800 mb-4">
             Web App Development
@@ -21,9 +23,9 @@ const Services = () => {
         </div>
 
         {/* Service Card 2 */}
-        <div className="bg-white shadow-md rounded-lg p-8 text-center hover:shadow-lg transition">
+        <div className="bg-white shadow-md rounded-lg p-8 text-center hover:shadow-lg hover:-translate-y-2 transform transition duration-300 ease-in-out">
           <div className="text-green-500 text-5xl mb-4">
-            <i className="fas fa-mobile-alt"></i>
+            <FontAwesomeIcon icon={faMobileAlt} />
           </div>
           <h3 className="text-xl font-semibold text-gray-800 mb-4">
             Mobile App Development
@@ -34,9 +36,9 @@ const Services = () => {
         </div>
 
         {/* Service Card 3 */}
-        <div className="bg-white shadow-md rounded-lg p-8 text-center hover:shadow-lg transition">
+        <div className="bg-white shadow-md rounded-lg p-8 text-center hover:shadow-lg hover:-translate-y-2 transform transition duration-300 ease-in-out">
           <div className="text-red-500 text-5xl mb-4">
-            <i className="fas fa-paint-brush"></i>
+            <FontAwesomeIcon icon={faPaintBrush} />
           </div>
           <h3 className="text-xl font-semibold text-gray-800 mb-4">
             Designing
