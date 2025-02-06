@@ -5,10 +5,10 @@ const domain = "https://matthewsgondwe-portfolio.netlify.app"; // Change this to
 
 const pages = [
   "/", 
-  "/About-Me", 
-  "/Projects", 
-  "/Experience", 
-  "/Contact"
+  "/about", 
+  "/projects", 
+  "/experience", 
+  "/contact"
   // Add other pages you want indexed
 ];
 

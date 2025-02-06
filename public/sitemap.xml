@@ -7,22 +7,22 @@
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://matthewsgondwe-portfolio.netlify.app/About-Me</loc>
+      <loc>https://matthewsgondwe-portfolio.netlify.app/about</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://matthewsgondwe-portfolio.netlify.app/Projects</loc>
+      <loc>https://matthewsgondwe-portfolio.netlify.app/projects</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://matthewsgondwe-portfolio.netlify.app/Experience</loc>
+      <loc>https://matthewsgondwe-portfolio.netlify.app/experience</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://matthewsgondwe-portfolio.netlify.app/Contact</loc>
+      <loc>https://matthewsgondwe-portfolio.netlify.app/contact</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>

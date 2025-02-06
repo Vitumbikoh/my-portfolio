@@ -25,25 +25,21 @@ const Home = () => {
               solutions that empower your business and elevate your digital
               presence.
             </p>
-            <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-6">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-full shadow-md hover:bg-blue-500 hover:-translate-y-1 transform transition w-full md:w-auto">
-                <a
-                  href="mailto:matthewgondwe1@gmail.com"
-                  className="w-full md:w-auto"
-                >
-                  Hire Me
-                </a>
-              </button>
+            <div className="flex flex-row items-center justify-center gap-4">
+              <a
+                href="mailto:matthewgondwe1@gmail.com"
+                className="bg-blue-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-500 hover:-translate-y-1 transform transition text-sm md:text-base"
+              >
+                Hire Me
+              </a>
 
-              <button className="bg-gray-800 text-white px-8 py-3 rounded-full shadow-md hover:bg-gray-700 hover:-translate-y-1 transform transition w-full md:w-auto">
-                <a
-                  href="/MatthewsGondweCV.pdf"
-                  download
-                  className="w-full md:w-auto"
-                >
-                  Download CV
-                </a>
-              </button>
+              <a
+                href="/MatthewsGondweCV.pdf"
+                download
+                className="bg-gray-800 text-white px-6 py-3 rounded-full shadow-md hover:bg-gray-700 hover:-translate-y-1 transform transition text-sm md:text-base"
+              >
+                Download CV
+              </a>
             </div>
           </div>
 
@@ -68,7 +64,10 @@ const Home = () => {
         </div>
 
         {/* Skills and Education Section */}
-        <div className="mt-16 animate-fade-in" style={{ animationDelay: "0.8s" }}>
+        <div
+          className="mt-16 animate-fade-in"
+          style={{ animationDelay: "0.8s" }}
+        >
           <Skills />
         </div>
         <div className="mt-16 animate-fade-in" style={{ animationDelay: "1s" }}>
