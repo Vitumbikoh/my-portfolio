@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="container mx-auto flex justify-between items-center py-5 px-6">
         {/* Logo */}
         <Link to="/">
-          <h1 className="text-2xl font-bold">Matthews Gondwe</h1>
+          <h1 className="text-2xl font-bold px-4 lg:px-14">Matthews Gondwe</h1>
         </Link>
         {/* Hamburger Menu for Mobile */}
         <div
@@ -23,19 +23,11 @@ const Header = () => {
 
         {/* Navigation Menu */}
         <ul
-          className={`absolute md:static top-16 left-0 w-full md:w-auto bg-gray-800 md:bg-transparent shadow-lg md:shadow-none flex flex-col md:flex-row items-center md:space-x-6 ${
+          className={`absolute md:static top-16 left-0 w-full md:w-auto bg-gray-800 md:bg-transparent shadow-lg md:shadow-none flex flex-col md:flex-row items-center md:space-x-10 lg:px-14 ${
             menuOpen ? "block" : "hidden md:flex"
           }`}
         >
-          {/* <li className="w-full md:w-auto text-center md:text-left">
-            <a
-              href="/"
-              className="block py-2 md:py-0 px-6 md:px-0 hover:text-gray-400"
-            >
-              Home
-            </a>
-          </li> */}
-          <li className="w-full md:w-auto text-center md:text-left">
+          <li className="w-full md:w-auto text-center md:text-left ">
             <a
               href="/about"
               className="block py-2 md:py-0 px-6 md:px-0 hover:text-gray-400"

@@ -45,7 +45,7 @@ const Education = () => {
   return (
     <section id="education" className="bg-gray-50 py-6">
       <motion.div
-        className="container mx-auto px-4 lg:px-10"
+        className="w-full"
         initial="hidden"
         animate="visible"
         variants={staggerContainer}
@@ -59,10 +59,10 @@ const Education = () => {
 
         {/* Education Section */}
         <motion.div className="mb-16" variants={fadeInUp}>
-          <motion.h3 className="text-2xl font-semibold text-blue-600 mb-8" variants={fadeInUp}>
+          <motion.h3 className="text-2xl font-semibold text-blue-600 mb-8 px-4" variants={fadeInUp}>
             Education
           </motion.h3>
-          <motion.div className="space-y-8" variants={staggerContainer}>
+          <motion.div className="space-y-12" variants={staggerContainer}>
             {educationDetails.map((edu, index) => (
               <motion.div
                 key={index}

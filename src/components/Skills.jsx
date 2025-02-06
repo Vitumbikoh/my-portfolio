@@ -6,7 +6,7 @@ const Skills = () => {
       id="skills"
       className="bg-gray-50 py-16"
     >
-      <div className="container mx-auto px-6 lg:px-20">
+      <div className="container mx-auto">
         {/* Header */}
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-10">
           Skills & Expertise
