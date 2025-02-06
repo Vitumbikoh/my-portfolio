@@ -5,7 +5,7 @@ const domain = "https://matthewsgondwe-portfolio.netlify.app"; // Change this to
 
 const pages = [
   "/", 
-  "/About Me", 
+  "/About-Me", 
   "/Projects", 
   "/Experience", 
   "/Contact"
