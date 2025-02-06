@@ -6,10 +6,10 @@ const Header = () => {
 
   return (
     <header className="bg-gray-800 text-white sticky top-0 z-50 shadow-lg">
-      <nav className="container mx-auto flex justify-between items-center py-5 px-6">
+      <nav className="container mx-auto flex justify-between items-center py-5 px-4 lg:px-20">
         {/* Logo */}
         <Link to="/">
-          <h1 className="text-2xl font-bold px-4 lg:px-14">Matthews Gondwe</h1>
+          <h1 className="text-2xl font-bold ">Matthews Gondwe</h1>
         </Link>
         {/* Hamburger Menu for Mobile */}
         <div
@@ -23,7 +23,7 @@ const Header = () => {
 
         {/* Navigation Menu */}
         <ul
-          className={`absolute md:static top-16 left-0 w-full md:w-auto bg-gray-800 md:bg-transparent shadow-lg md:shadow-none flex flex-col md:flex-row items-center md:space-x-10 lg:px-14 ${
+          className={`absolute md:static top-16 left-0 w-full md:w-auto bg-gray-800 md:bg-transparent shadow-lg md:shadow-none flex flex-col md:flex-row items-center md:space-x-10 ${
             menuOpen ? "block" : "hidden md:flex"
           }`}
         >
