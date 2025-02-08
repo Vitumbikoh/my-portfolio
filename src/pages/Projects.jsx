@@ -5,8 +5,9 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "MUST Library Infoormation System",
-      description: "Developed using React JS, Tailwind CSS for the frontend and Express JS for the backend which runs tests on MySQL",
+      title: "MUST Library Information System",
+      description:
+        "Developed using React JS, Tailwind CSS for the frontend and Express JS for the backend which runs tests on MySQL",
       image: "must.png",
       link: "https://library.must.ac.mw/",
     },
@@ -42,9 +43,9 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="bg-gray-100 py-16">
+    <section id="projects" className="bg-gray-50 py-16">
       <div className="container mx-auto px-6 lg:px-20">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
+        <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-12">
           My Projects
         </h2>
 
@@ -52,17 +53,19 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
             >
-              {/* Project Image */}
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
+              {/* Project Image with Hover Zoom Effect */}
+              <div className="relative">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-48 object-cover transition-transform duration-300 transform hover:scale-105"
+                />
+              </div>
               {/* Project Details */}
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                <h3 className="text-xl font-semibold text-gray-800 mb-4 hover:text-blue-600 transition-colors">
                   {project.title}
                 </h3>
                 <p className="text-gray-600">{project.description}</p>
@@ -107,7 +110,7 @@ const Projects = () => {
               <img
                 src={selectedProject.image}
                 alt={selectedProject.title}
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-48 object-cover mb-4 transition-transform duration-300 transform hover:scale-105"
               />
               <p className="text-gray-600">{selectedProject.description}</p>
             </div>

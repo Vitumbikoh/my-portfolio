@@ -6,7 +6,7 @@ const Experience = () => {
       role: "Web Developer",
       company: "Malawi University of Science and Technology",
       description:
-        "Developed a Library Management System to streamline library operations.",
+        "Developed a University Library Information System to streamline library operations.",
       duration: "Septemeber 2024 - January 2025",
       employmentType: "Contract",
     },
