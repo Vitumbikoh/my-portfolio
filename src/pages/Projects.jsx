@@ -5,37 +5,37 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "MUST Library Management System",
-      description: "Developed using React, Tailwind CSS, and Firebase.",
+      title: "MUST Library Infoormation System",
+      description: "Developed using React JS, Tailwind CSS for the frontend and Express JS for the backend which runs tests on MySQL",
       image: "must.png",
-      link: "https://must-library.netlify.app/",
+      link: "https://library.must.ac.mw/",
     },
     {
       title: "Sports Ticketing System",
       description: "Built with Laravel, Tailwind CSS, and MySQL.",
-      image: "/images/sports-ticketing.jpg",
+      image: "sports-ticketing.png",
     },
     {
       title: "Digital Skills LMS",
-      description: "Developed using React, Tailwind CSS, and Firebase.",
+      description: "Developed using PHP, HTML, CSS and WordPress.",
       image: "/digitalskills.png",
       link: "https://digitalskillsforafrica.com/",
     },
     {
       title: "Vanguard Life Assurance Website",
-      description: "Created with PHP, HTML, and WordPress.",
+      description: "Developed using PHP, HTML, and WordPress.",
       image: "/vanguard.png",
       link: "https://vanguardlifemw.com/",
     },
     {
       title: "Green for Africa",
-      description: "Developed using React and Tailwind CSS.",
+      description: "Developed using PHP, HTML, and WordPress.",
       image: "/green4africa.png",
       link: "https:green4africa.netlify.app",
     },
     {
       title: "Jesus Power Network Website",
-      description: "Developed using React and Tailwind CSS.",
+      description: "Developed using PHP, HTML, and WordPress.",
       image: "/jesuspower.png",
       link: "https://jesuspowernet.org/",
     },
