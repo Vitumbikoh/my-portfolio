@@ -3,22 +3,21 @@ import React from "react";
 const Experience = () => {
   const experiences = [
     {
-      role: "Enumerator",
-      company: "National Statistical Office",
+      role: "Web Developer",
+      company: "Malawi University of Science and Technology",
       description:
-        "Collected, verified, and reported data for national surveys and censuses. Ensured accurate data entry and maintained confidentiality.",
-      duration: "2018",
+        "Developed a Library Management System to streamline library operations.",
+      duration: "Septemeber 2024 - January 2025",
       employmentType: "Contract",
     },
-    {
-      role: "Yellow Card Brand Ambassador",
-      company: "Utmost Marketing",
-      description:
-        "Promoted Yellow Card cryptocurrency services by educating potential clients on its benefits. Increased user engagement through strategic marketing campaigns and client onboarding support.",
-      duration: "2023 – 2024",
-      employmentType: "Internship",
-    },
 
+    {
+      role: "Web Developer",
+      company: "Luntha Inc Limited",
+      description: "Developed a company website to enhance online presence.",
+      duration: "May 2024 - August 202",
+      employmentType: "Hybrid",
+    },
     {
       role: "Information Technology Intern",
       company: "Ntha Foundation",
@@ -27,20 +26,21 @@ const Experience = () => {
       duration: "January 2024 - April 2024",
       employmentType: "Internship",
     },
-    {
-      role: "Web Developer",
-      company: "Luntha Inc Limited",
-      description: "Developed a company website to enhance online presence.",
-      duration: "May 2024 - August 202",
-      employmentType: "Hybrid",
-    },
 
     {
-      role: "Web Developer",
-      company: "Malawi University of Science and Technology",
+      role: "Yellow Card Brand Ambassador",
+      company: "Utmost Marketing",
       description:
-        "Developed a Library Management System to streamline library operations.",
-      duration: "Septemeber 2024 - January 2025",
+        "Promoted Yellow Card cryptocurrency services by educating potential clients on its benefits. Increased user engagement through strategic marketing campaigns and client onboarding support.",
+      duration: "2023 – 2024",
+      employmentType: "Internship",
+    },
+    {
+      role: "Enumerator",
+      company: "National Statistical Office",
+      description:
+        "Collected, verified, and reported data for national surveys and censuses. Ensured accurate data entry and maintained confidentiality.",
+      duration: "2018",
       employmentType: "Contract",
     },
   ];
@@ -49,7 +49,7 @@ const Experience = () => {
     <section id="experience" className="bg-gray-100 py-16">
       <div className="container mx-auto px-6 lg:px-20">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
-          Experience
+          Work Experience
         </h2>
         <div className="space-y-8">
           {experiences.map((exp, index) => (
