@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-gray-50 py-16"
+      className="bg-gray-50 py-16 px-4 lg:px-20"
     >
       <div className="container mx-auto">
         {/* Header */}
@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Technical Skills */}
           <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-2xl font-semibold text-blue-600 mb-4">
+            <h3 className="text-2xl font-semibold text-blue-500 mb-4">
               Technical Skills
             </h3>
             <ul className="list-disc list-inside space-y-2 text-gray-700">
@@ -30,7 +30,7 @@ const Skills = () => {
 
           {/* IT Skills */}
           <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-2xl font-semibold text-green-600 mb-4">
+            <h3 className="text-2xl font-semibold text-teal-600 mb-4">
               IT Skills
             </h3>
             <ul className="list-disc list-inside space-y-2 text-gray-700">
