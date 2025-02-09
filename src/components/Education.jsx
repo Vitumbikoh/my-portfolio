@@ -43,7 +43,7 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="bg-gray-50 py-6">
+    <section id="education" className="bg-gray-50 py-6 px-4 lg:px-20">
       <motion.div
         className="w-full"
         initial="hidden"
@@ -59,7 +59,7 @@ const Education = () => {
 
         {/* Education Section */}
         <motion.div className="mb-16" variants={fadeInUp}>
-          <motion.h3 className="text-2xl font-semibold text-blue-600 mb-8 px-4" variants={fadeInUp}>
+          <motion.h3 className="text-2xl font-semibold text-blue-500 mb-8 px-4" variants={fadeInUp}>
             Education
           </motion.h3>
           <motion.div className="space-y-12" variants={staggerContainer}>
@@ -80,7 +80,7 @@ const Education = () => {
 
         {/* Certifications Section */}
         <motion.div variants={fadeInUp}>
-          <motion.h3 className="text-2xl font-semibold text-green-600 mb-8" variants={fadeInUp}>
+          <motion.h3 className="text-2xl font-semibold text-teal-600 mb-8 px-4" variants={fadeInUp}>
             Certifications
           </motion.h3>
           <motion.div className="space-y-8" variants={staggerContainer}>
