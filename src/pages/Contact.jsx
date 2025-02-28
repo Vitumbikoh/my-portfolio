@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -47,13 +48,13 @@ const Contact = () => {
               <div>
                 <p className="text-sm font-medium text-gray-700">Phone:</p>
                 <a
-                  href="tel:+265992453357 / +265880937758"
+                  href="tel:+265992453357"
                   className="text-teal-600 font-medium hover:underline"
                 >
-                  +265 992 453 357 / +265880937758
+                  +265 992 453 357
                 </a>
               </div>
-              <div>
+              {/* <div>
                 <p className="text-sm font-medium text-gray-700">LinkedIn:</p>
                 <a
                   href="https://www.linkedin.com/in/matthews-gondwe-429b35238/"
@@ -62,6 +63,25 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   View LinkedIn Profile
+                </a>
+              </div> */}
+
+              {/* Social Media Icons */}
+              <div className="flex space-x-6 mt-6">
+                <a href="https://www.linkedin.com/in/matthews-gondwe-429b35238/" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedin className="text-2xl text-gray-700 hover:text-blue-500 transition-transform transform hover:scale-110" />
+                </a>
+                <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
+                  <FaGithub className="text-2xl text-gray-700 hover:text-gray-600 transition-transform transform hover:scale-110" />
+                </a>
+                {/* <a href="mailto:matthewgondwe1@gmail.com">
+                  <FaEnvelope className="text-2xl text-gray-700 hover:text-red-500 transition-transform transform hover:scale-110" />
+                </a> */}
+                <a href="https://twitter.com/your-twitter-handle" target="_blank" rel="noopener noreferrer">
+                  <FaTwitter className="text-2xl text-gray-700 hover:text-blue-400 transition-transform transform hover:scale-110" />
+                </a>
+                <a href="https://facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer">
+                  <FaFacebook className="text-2xl text-gray-700 hover:text-blue-600 transition-transform transform hover:scale-110" />
                 </a>
               </div>
             </div>
@@ -76,10 +96,7 @@ const Contact = () => {
 
             {/* Name Field */}
             <div className="mt-4 flex-grow">
-              <label
-                htmlFor="name"
-                className="block text-sm font-medium text-gray-700 mb-2"
-              >
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                 Full Name
               </label>
               <input
@@ -96,10 +113,7 @@ const Contact = () => {
 
             {/* Email Field */}
             <div>
-              <label
-                htmlFor="email"
-                className="block text-sm font-medium text-gray-700 mb-2"
-              >
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                 Email Address
               </label>
               <input
@@ -116,10 +130,7 @@ const Contact = () => {
 
             {/* Subject Field */}
             <div>
-              <label
-                htmlFor="subject"
-                className="block text-sm font-medium text-gray-700 mb-2"
-              >
+              <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
                 Subject
               </label>
               <input
@@ -136,10 +147,7 @@ const Contact = () => {
 
             {/* Message Field */}
             <div>
-              <label
-                htmlFor="message"
-                className="block text-sm font-medium text-gray-700 mb-2"
-              >
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                 Message
               </label>
               <textarea

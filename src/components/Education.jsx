@@ -15,87 +15,90 @@ const Education = () => {
   const educationDetails = [
     {
       institution: "Malawi University of Science and Technology",
-      degree: "Bachelor of Science in Business Information Technology",
+      degree: "BSc in Business Information Technology",
       duration: "2018 - 2022",
       description:
-        "Graduated with hands-on experience in IT, including web development, analyzing, enhancing, and optimizing ICT systems.",
+        "Graduated with hands-on experience in IT, web development, and ICT system optimization.",
     },
     {
       institution: "Rumphi Secondary School",
       degree: "Malawi School Certificate of Education",
       duration: "2013 - 2017",
-      description:
-        "Achieved strong academic results with a focus on science and technology subjects.",
+      description: "Achieved strong academic results with a focus on STEM subjects.",
     },
   ];
 
   const certifications = [
-    {
-      title: "System Administration and IT Infrastructure Services",
-      provider: "Google",
-      year: "2024",
-    },
-    {
-      title: "Google IT Support Professional Certificate",
-      provider: "Google",
-      year: "2024",
-    },
+    { title: "System Administration & IT Infrastructure", provider: "Google", year: "2024" },
+    { title: "Google IT Support Professional", provider: "Google", year: "2024" },
   ];
 
   return (
-    <section id="education" className="bg-gray-50 py-6 px-4 lg:px-20">
+    <section id="education" className="bg-gray-100 py-16 px-4 lg:px-20">
       <motion.div
-        className="w-full"
+        className="flex flex-col lg:flex-row items-start lg:gap-12"
         initial="hidden"
         animate="visible"
         variants={staggerContainer}
       >
-        <motion.h2
-          className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12"
-          variants={fadeInUp}
-        >
-          Education & Certifications
-        </motion.h2>
+        {/* Left Side - Education & Certifications */}
+        <motion.div className="lg:w-2/3 w-full flex flex-col space-y-12" variants={fadeInUp}>
+          <motion.h2
+            className="text-4xl font-serif font-bold text-gray-900 border-l-8 border-blue-600 pl-4"
+            variants={fadeInUp}
+          >
+            Education & Certifications
+          </motion.h2>
 
-        {/* Education Section */}
-        <motion.div className="mb-16" variants={fadeInUp}>
-          <motion.h3 className="text-2xl font-semibold text-blue-500 mb-8 px-4" variants={fadeInUp}>
-            Education
-          </motion.h3>
-          <motion.div className="space-y-12" variants={staggerContainer}>
-            {educationDetails.map((edu, index) => (
-              <motion.div
-                key={index}
-                className="bg-white shadow-lg rounded-lg p-8 transition duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2"
-                variants={fadeInUp}
-              >
-                <h4 className="text-xl font-semibold text-gray-800">{edu.degree}</h4>
-                <p className="text-lg text-gray-600 font-medium">{edu.institution}</p>
-                <p className="text-sm text-gray-500">{edu.duration}</p>
-                <p className="mt-3 text-gray-700">{edu.description}</p>
-              </motion.div>
-            ))}
+          {/* Education Section */}
+          <motion.div variants={fadeInUp}>
+            <motion.h3 className="text-2xl font-semibold text-blue-700 mb-4" variants={fadeInUp}>
+              Education
+            </motion.h3>
+            <div className="space-y-6">
+              {educationDetails.map((edu, index) => (
+                <motion.div
+                  key={index}
+                  className="bg-white border-l-4 border-blue-500 shadow-md rounded-lg p-6 transition duration-300 hover:shadow-lg"
+                  variants={fadeInUp}
+                >
+                  <h4 className="text-xl font-semibold text-gray-900">{edu.degree}</h4>
+                  <p className="text-lg text-gray-700">{edu.institution}</p>
+                  <p className="text-sm text-gray-500">{edu.duration}</p>
+                  <p className="mt-3 text-gray-600">{edu.description}</p>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* Certifications Section */}
+          <motion.div variants={fadeInUp}>
+            <motion.h3 className="text-2xl font-semibold text-teal-700 mb-4" variants={fadeInUp}>
+              Certifications
+            </motion.h3>
+            <div className="space-y-6">
+              {certifications.map((cert, index) => (
+                <motion.div
+                  key={index}
+                  className="bg-white border-l-4 border-teal-500 shadow-md rounded-lg p-6 transition duration-300 hover:shadow-lg"
+                  variants={fadeInUp}
+                >
+                  <h4 className="text-xl font-semibold text-gray-900">{cert.title}</h4>
+                  <p className="text-lg text-gray-700">{cert.provider}</p>
+                  <p className="text-sm text-gray-500">{cert.year}</p>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </motion.div>
 
-        {/* Certifications Section */}
-        <motion.div variants={fadeInUp}>
-          <motion.h3 className="text-2xl font-semibold text-teal-600 mb-8 px-4" variants={fadeInUp}>
-            Certifications
-          </motion.h3>
-          <motion.div className="space-y-8" variants={staggerContainer}>
-            {certifications.map((cert, index) => (
-              <motion.div
-                key={index}
-                className="bg-white shadow-lg rounded-lg p-8 transition duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2"
-                variants={fadeInUp}
-              >
-                <h4 className="text-xl font-semibold text-gray-800">{cert.title}</h4>
-                <p className="text-lg text-gray-600 font-medium">{cert.provider}</p>
-                <p className="text-sm text-gray-500">{cert.year}</p>
-              </motion.div>
-            ))}
-          </motion.div>
+        {/* Right Side - Image */}
+        <motion.div className="lg:w-1/3 flex justify-center items-start mt-12 lg:mt-0" variants={fadeInUp}>
+          <img
+            src="/VIB_0501.jpg"
+            alt="Education"
+            className="w-full max-w-sm lg:max-w-md rounded-lg shadow-md"
+          />
         </motion.div>
       </motion.div>
     </section>

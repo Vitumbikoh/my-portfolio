@@ -8,7 +8,7 @@ const Skills = () => {
     >
       <div className="container mx-auto">
         {/* Header */}
-        <h2 className="text-4xl font-bold text-gray-800 text-center mb-10">
+        <h2 className="text-4xl font-serif font-bold text-gray-900  pl-4 text-center">
           Skills & Expertise
         </h2>
 

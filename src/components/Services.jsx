@@ -5,7 +5,7 @@ import { faCode, faMobileAlt, faPaintBrush } from "@fortawesome/free-solid-svg-i
 const Services = () => {
   return (
     <div className="mt-16 px-4 lg:px-20">
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-10">
+      <h2 className="text-4xl font-serif font-bold text-gray-900  pl-4 text-center">
         Services I Offer
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
