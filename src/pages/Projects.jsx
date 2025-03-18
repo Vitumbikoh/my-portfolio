@@ -5,9 +5,9 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "MUST Library Information System",
+      title: "MUST Library Website",
       description:
-        "Developed using React JS, Tailwind CSS for the frontend and Express JS for the backend which runs tests on MySQL",
+        "Developed using Next JS, Tailwind CSS for the frontend and Express JS for the backend which runs on MySQL",
       image: "must.png",
       link: "https://library.must.ac.mw/",
     },
@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
       title: "Green for Africa",
-      description: "Developed using PHP, HTML, and WordPress.",
+      description: "Developed using React JS and Tailwind CSS",
       image: "/green4africa.png",
       link: "https:green4africa.netlify.app",
     },

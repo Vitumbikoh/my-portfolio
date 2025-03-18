@@ -37,33 +37,58 @@ const About = () => {
           </div>
         </div>
 
-        {/* Skills Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12">
-          <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Technical Skills</h3>
-            <ul className="list-disc ml-6 space-y-2 text-gray-700">
-              <li>Web Development: React, Laravel, Tailwind CSS, Express.js</li>
-              <li>Mobile Development: Flutter</li>
-              <li>Cloud & Database: Firebase, Google Cloud, MySQL, PostgreSQL</li>
-              <li>Programming Languages: Java, PHP, Python, Dart, JavaScript</li>
-              <li>Automated API Testing & Deployment</li>
-              <li>System Administration & IT Infrastructure</li>
+        {/* Skills & Values Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
+          {/* Technical Skills */}
+          <div className="bg-white p-8 rounded-xl shadow-md">
+            <h3 className="text-3xl font-bold text-gray-800 mb-4">
+              Technical Skills
+            </h3>
+            <ul className="list-none space-y-3 text-gray-700">
+              <li className="flex items-center">
+                <span className="mr-2 text-green-600">✔</span>
+                Web Development: React, Next.js, Laravel, Tailwind CSS, Express.js.
+              </li>
+              <li className="flex items-center">
+                <span className="mr-2 text-green-600">✔</span>
+                Mobile Development: Flutter.
+              </li>
+              <li className="flex items-center">
+                <span className="mr-2 text-green-600">✔</span>
+                Cloud & Database: Firebase, Google Cloud, MySQL, PostgreSQL.
+              </li>
+              <li className="flex items-center">
+                <span className="mr-2 text-green-600">✔</span>
+                Programming: Java, PHP, Python, Dart, JavaScript.
+              </li>
+              <li className="flex items-center">
+                <span className="mr-2 text-green-600">✔</span>
+                System Administration & IT Infrastructure.
+              </li>
             </ul>
           </div>
-          <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Key Professional Experience</h3>
-            <ul className="list-disc ml-6 space-y-2 text-gray-700">
-              <li>
-                <span className="font-semibold">Web Developer (Asodzi Photography)</span>: Designed and deployed 
-                an interactive portfolio website for a photography business.
+
+          {/* Personal Values & Work Ethic */}
+          <div className="bg-white p-8 rounded-xl shadow-md">
+            <h3 className="text-3xl font-bold text-gray-800 mb-4">
+              Personal Values & Work Ethic
+            </h3>
+            <ul className="list-none space-y-3 text-gray-700">
+              <li className="flex items-center">
+                <span className="mr-2 text-indigo-600">✔</span>
+                <span className="font-semibold">Innovation</span> – Striving to create impactful solutions.
               </li>
-              <li>
-                <span className="font-semibold">IoT & System Optimization</span>: Worked on integrating 
-                IoT solutions into business processes for enhanced efficiency.
+              <li className="flex items-center">
+                <span className="mr-2 text-indigo-600">✔</span>
+                <span className="font-semibold">Adaptability</span> – Learning and evolving with new technologies.
               </li>
-              <li>
-                <span className="font-semibold">Full-Stack Development</span>: Developed and deployed 
-                a React + Express-based library management system with MySQL.
+              <li className="flex items-center">
+                <span className="mr-2 text-indigo-600">✔</span>
+                <span className="font-semibold">Collaboration</span> – Thriving in teamwork and knowledge sharing.
+              </li>
+              <li className="flex items-center">
+                <span className="mr-2 text-indigo-600">✔</span>
+                <span className="font-semibold">Problem-Solving</span> – Applying analytical skills to tackle challenges.
               </li>
             </ul>
           </div>
