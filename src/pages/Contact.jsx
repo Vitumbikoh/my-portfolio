@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaFacebook } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
