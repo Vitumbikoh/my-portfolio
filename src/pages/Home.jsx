@@ -51,7 +51,7 @@ const Home = () => {
                 solutions that empower your business and elevate your digital
                 presence.
               </p>
-              <div className="flex flex-row gap-4 justify-center md:justify-normal">
+              <div className="flex flex-row gap-4 lg:gap-16 justify-center md:justify-normal">
                 <a
                   href="mailto:matthewgondwe1@gmail.com"
                   className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-500 hover:-translate-y-1 transform transition text-sm md:text-base"
