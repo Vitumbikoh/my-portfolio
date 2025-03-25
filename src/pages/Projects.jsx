@@ -49,6 +49,12 @@ const Projects = () => {
       image: "/jesuspower.png",
       link: "https://jesuspowernet.org/",
     },
+    {
+      title: "MSA Website",
+      description: "Developed using PHP, HTML, and WordPress.",
+      image: "/MSA.png",
+      link: "https://msa.mw/",
+    },
   ];
 
   return (
@@ -57,6 +63,11 @@ const Projects = () => {
         <h2 className="text-4xl font-serif font-bold text-gray-900  pl-4 text-center mb-12">
           My Projects
         </h2>
+
+        <p className="text-2xl text-center text-gray-800 mb-12">
+          This is a collection of projects I have worked on, both individually
+          and collaboratively.
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projects.map((project, index) => (
