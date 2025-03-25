@@ -5,17 +5,26 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "MUST Library Information System",
+      title: "MUST Library Website",
       description:
-        "Developed using React JS, Tailwind CSS for the frontend and Express JS for the backend which runs tests on MySQL",
+        "Developed using React JS, Tailwind CSS for the frontend and Express JS for the backend which runs on MySQL",
       image: "must.png",
       link: "https://library.must.ac.mw/",
     },
+
+    {
+      title: "Library_Management_system",
+      description: "Devloped using Laravel, Tailwind CSS, and MySQL.",
+      image: "Library_Management_system.png",
+      link: "#",
+    },
+
     {
       title: "Sports Ticketing System",
-      description: "Built with Laravel, Tailwind CSS, and MySQL.",
+      description: "Devloped using Laravel, Tailwind CSS, and MySQL.",
       image: "sports-ticketing.png",
     },
+
     {
       title: "Digital Skills LMS",
       description: "Developed using PHP, HTML, CSS and WordPress.",
