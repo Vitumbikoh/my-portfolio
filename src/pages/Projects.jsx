@@ -58,13 +58,13 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="bg-gray-50 py-16">
+    <section id="projects" className="bg-gray-50 py-10">
       <div className="container mx-auto px-6 lg:px-20">
-        <h2 className="text-4xl font-serif font-bold text-gray-900  pl-4 text-center mb-12">
+        <h2 className="text-4xl font-serif font-bold text-gray-900  pl-4 text-center mb-8">
           My Projects
         </h2>
 
-        <p className="text-2xl text-center text-gray-800 mb-12">
+        <p className="text-xl text-center text-gray-800 mb-12">
           This is a collection of projects I have worked on, both individually
           and collaboratively.
         </p>
