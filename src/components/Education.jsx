@@ -93,7 +93,7 @@ const Education = () => {
         </motion.div>
 
         {/* Right Side - Image */}
-        <motion.div className="lg:w-1/3 flex justify-center items-start mt-12 lg:mt-0" variants={fadeInUp}>
+        <motion.div className="lg:w-1/3 flex justify-center items-start mt-12 lg:mt-30" variants={fadeInUp}>
           <img
             src="/VIB_0501.jpg"
             alt="Education"

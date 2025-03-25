@@ -14,7 +14,7 @@ const Projects = () => {
 
     {
       title: "Library_Management_system",
-      description: "Devloped using Laravel, Tailwind CSS, and MySQL.",
+      description: "Developed using Laravel, Tailwind CSS, and MySQL.",
       image: "Library_Management_system.png",
       link: "#",
     },
