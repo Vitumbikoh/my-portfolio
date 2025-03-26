@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Library_Management_system",
       description: "Developed using Laravel, Tailwind CSS, and MySQL.",
       image: "Library_Management_system.png",
-      link: "#",
+      link: "https://library-management-system.great-site.net/",
     },
 
     {
@@ -41,7 +41,7 @@ const Projects = () => {
       title: "Green for Africa",
       description: "Developed using PHP, HTML, and WordPress.",
       image: "/green4africa.png",
-      link: "https:green4africa.netlify.app",
+      link: "https://green4africa.netlify.app/",
     },
     {
       title: "Jesus Power Network Website",
