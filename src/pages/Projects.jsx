@@ -11,25 +11,11 @@ const Projects = () => {
       image: "must.png",
       link: "https://library.must.ac.mw/",
     },
-
     {
       title: "Library_Management_system",
       description: "Developed using Laravel, Tailwind CSS, and MySQL.",
       image: "Library_Management_system.png",
       link: "https://library-management-system.great-site.net/",
-    },
-
-    {
-      title: "Sports Ticketing System",
-      description: "Devloped using Laravel, Tailwind CSS, and MySQL.",
-      image: "sports-ticketing.png",
-    },
-
-    {
-      title: "Digital Skills LMS",
-      description: "Developed using PHP, HTML, CSS and WordPress.",
-      image: "/digitalskills.png",
-      link: "https://digitalskillsforafrica.com/",
     },
     {
       title: "Vanguard Life Assurance Website",
@@ -54,6 +40,17 @@ const Projects = () => {
       description: "Developed using PHP, HTML, and WordPress.",
       image: "/MSA.png",
       link: "https://msa.mw/",
+    },
+    {
+      title: "Digital Skills LMS",
+      description: "Developed using PHP, HTML, CSS and WordPress.",
+      image: "/digitalskills.png",
+      link: "https://digitalskillsforafrica.com/",
+    },
+    {
+      title: "Sports Ticketing System",
+      description: "Devloped using Laravel, Tailwind CSS, and MySQL.",
+      image: "sports-ticketing.png",
     },
   ];
 
