@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "MUST Library Website",
       description:
-        "Developed using React JS, Tailwind CSS for the frontend and Express JS for the backend which runs on MySQL",
+        "Developed using Next JS, Tailwind CSS for the frontend and Node JS for the backend which runs on MySQL",
       image: "must.png",
       link: "https://library.must.ac.mw/",
     },
