@@ -6,11 +6,11 @@ const About = () => {
       <div className="container mx-auto px-6 lg:px-20 max-w-7xl">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+          <h1 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
             About Me
-          </h2>
+          </h1>
           <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-light text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Passionate IT Professional | Software Developer | Technology Innovator
           </p>
         </div>
@@ -62,11 +62,9 @@ const About = () => {
 
         {/* Core Competencies */}
         <div className="mb-16">
-          <h3 className="text-3xl font-serif font-bold text-center text-gray-900 mb-12">
-            Core Competencies
-          </h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+            <h2 className="text-3xl font-serif font-bold text-center text-gray-900 mb-12">
+              Core Competencies
+            </h2>          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
             {[
               {
                 title: "Full-Stack Development",
@@ -91,9 +89,9 @@ const About = () => {
             ].map((competency, index) => (
               <div key={index} className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-all duration-300">
                 <div className="text-4xl mb-4 text-center">{competency.icon}</div>
-                <h4 className="text-lg font-semibold text-gray-900 mb-4 text-center">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4 text-center">
                   {competency.title}
-                </h4>
+                </h3>
                 <ul className="space-y-2">
                   {competency.skills.map((skill, skillIndex) => (
                     <li key={skillIndex} className="text-sm text-gray-600 flex items-center">
@@ -109,9 +107,9 @@ const About = () => {
 
         {/* Professional Experience */}
         <div className="bg-white rounded-2xl shadow-xl p-10">
-          <h3 className="text-3xl font-serif font-bold text-center text-gray-900 mb-12">
+          <h2 className="text-3xl font-serif font-bold text-center text-gray-900 mb-12">
             Professional Experience
-          </h3>
+          </h2>
           
           <div className="space-y-8">
             {[
@@ -150,9 +148,9 @@ const About = () => {
               <div key={index} className="pl-8 relative">
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
                 <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {experience.role}
-                  </h4>
+                  </h3>
                   <p className="text-blue-700 font-medium mb-1">{experience.company}</p>
                   {experience.period && (
                     <p className="text-gray-500 text-sm font-medium mb-3">{experience.period}</p>

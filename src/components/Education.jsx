@@ -38,11 +38,11 @@ const Education = () => {
       <div className="container mx-auto px-6 lg:px-20 max-w-7xl">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+          <h1 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
             Education & Certifications
-          </h2>
+          </h1>
           <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-light text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Academic foundation and professional certifications driving excellence
           </p>
         </div>
@@ -58,10 +58,10 @@ const Education = () => {
 
           {/* Education Section */}
           <motion.div variants={fadeInUp}>
-            <motion.h3 className="text-3xl font-bold text-gray-900 mb-8 flex items-center" variants={fadeInUp}>
+            <motion.h2 className="text-2xl font-bold text-gray-900 mb-8 flex items-center" variants={fadeInUp}>
               <div className="w-3 h-3 bg-blue-600 rounded-full mr-4"></div>
               Education
-            </motion.h3>
+            </motion.h2>
             <div className="space-y-6">
               {educationDetails.map((edu, index) => (
                 <motion.div
@@ -69,7 +69,7 @@ const Education = () => {
                   className="bg-white shadow-sm rounded-lg p-8 transition duration-300 hover:shadow-md"
                   variants={fadeInUp}
                 >
-                  <h4 className="text-2xl font-bold text-gray-900 mb-2">{edu.degree}</h4>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{edu.degree}</h3>
                   <p className="text-xl text-blue-700 font-semibold mb-1">{edu.institution}</p>
                   <p className="text-sm text-gray-500 font-medium mb-4">{edu.duration}</p>
                   <p className="text-gray-600 leading-relaxed text-lg">{edu.description}</p>
@@ -80,10 +80,10 @@ const Education = () => {
 
           {/* Certifications Section */}
           <motion.div variants={fadeInUp}>
-            <motion.h3 className="text-3xl font-bold text-gray-900 mb-8 flex items-center" variants={fadeInUp}>
+            <motion.h2 className="text-2xl font-bold text-gray-900 mb-8 flex items-center" variants={fadeInUp}>
               <div className="w-3 h-3 bg-green-600 rounded-full mr-4"></div>
               Certifications
-            </motion.h3>
+            </motion.h2>
             <div className="space-y-6">
               {certifications.map((cert, index) => (
                 <motion.div
@@ -91,7 +91,7 @@ const Education = () => {
                   className="bg-white shadow-sm rounded-lg p-8 transition duration-300 hover:shadow-md"
                   variants={fadeInUp}
                 >
-                  <h4 className="text-2xl font-bold text-gray-900 mb-2">{cert.title}</h4>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{cert.title}</h3>
                   <p className="text-xl text-green-700 font-semibold mb-1">{cert.provider}</p>
                   <p className="text-sm text-gray-500 font-medium">{cert.year}</p>
                 </motion.div>

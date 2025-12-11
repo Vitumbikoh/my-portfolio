@@ -42,11 +42,11 @@ const Home = () => {
               className="text-center md:text-left md:w-1/2"
               variants={fadeInUp}
             >
-              <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
                 Hello, I'm{" "}
                 <span className="text-blue-500">Matthews Gondwe</span>
               </h1>
-              <p className="text-lg md:text-xl text-white mb-6">
+              <p className="text-lg md:text-xl font-light text-white mb-6">
                 I am a passionate developer focused on creating seamless digital
                 solutions that empower your business and elevate your digital
                 presence.

@@ -9,11 +9,11 @@ const Skills = () => {
       <div className="container mx-auto px-6 lg:px-20 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+          <h1 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
             Skills & Expertise
-          </h2>
+          </h1>
           <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-light text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Technical proficiency across modern development stack and methodologies
           </p>
         </div>
@@ -24,7 +24,7 @@ const Skills = () => {
           <div className="bg-white shadow-sm rounded-lg p-8 hover:shadow-md transition-all duration-300">
             <div className="flex items-center mb-6">
               <div className="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
-              <h3 className="text-2xl font-bold text-gray-900">
+              <h3 className="text-xl font-semibold text-gray-900">
                 Technical Skills
               </h3>
             </div>
@@ -56,7 +56,7 @@ const Skills = () => {
           <div className="bg-white shadow-sm rounded-lg p-8 hover:shadow-md transition-all duration-300">
             <div className="flex items-center mb-6">
               <div className="w-3 h-3 bg-green-600 rounded-full mr-3"></div>
-              <h3 className="text-2xl font-bold text-gray-900">
+              <h3 className="text-xl font-semibold text-gray-900">
                 IT Skills
               </h3>
             </div>
@@ -84,7 +84,7 @@ const Skills = () => {
           <div className="bg-white shadow-sm rounded-lg p-8 hover:shadow-md transition-all duration-300">
             <div className="flex items-center mb-6">
               <div className="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
-              <h3 className="text-2xl font-bold text-gray-900">
+              <h3 className="text-xl font-semibold text-gray-900">
                 Soft Skills
               </h3>
             </div>

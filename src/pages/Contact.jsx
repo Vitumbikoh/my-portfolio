@@ -26,11 +26,11 @@ const Contact = () => {
       <div className="container mx-auto px-6 lg:px-20">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+          <h1 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
             Contact Me
-          </h2>
+          </h1>
           <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-light text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Ready to collaborate on your next project? I'd love to hear from you. 
             Let's discuss how we can bring your ideas to life.
           </p>
@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
           {/* Contact Details */}
           <div className="bg-white p-10 rounded-lg shadow-sm flex flex-col h-full">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">Get in Touch</h3>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Get in Touch</h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Feel free to reach out via email, phone, or connect with me on social media. 
               I'm always open to discussing new projects and opportunities.
@@ -96,7 +96,7 @@ const Contact = () => {
 
             {/* Social Media Icons */}
             <div className="mt-auto">
-              <h4 className="text-lg font-semibold text-gray-900 mb-4">Connect With Me</h4>
+              <h3 className="text-base font-medium text-gray-900 mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
                 <a 
                   href="https://www.linkedin.com/in/matthews-gondwe-429b35238/" 
@@ -139,14 +139,14 @@ const Contact = () => {
             onSubmit={handleSubmit}
             className="bg-white p-10 rounded-lg shadow-sm flex flex-col h-full"
           >
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">Send a Message</h3>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Send a Message</h2>
             <p className="text-gray-600 mb-8 leading-relaxed">
               Have a project in mind? Fill out the form below and I'll get back to you within 24 hours.
             </p>
 
             {/* Name Field */}
             <div className="mb-6">
-              <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                 Full Name
               </label>
               <input
@@ -163,7 +163,7 @@ const Contact = () => {
 
             {/* Email Field */}
             <div className="mb-6">
-              <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                 Email Address
               </label>
               <input
@@ -180,7 +180,7 @@ const Contact = () => {
 
             {/* Subject Field */}
             <div className="mb-6">
-              <label htmlFor="subject" className="block text-sm font-semibold text-gray-700 mb-2">
+              <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
                 Subject
               </label>
               <input
@@ -197,7 +197,7 @@ const Contact = () => {
 
             {/* Message Field */}
             <div className="mb-8 flex-grow">
-              <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                 Message
               </label>
               <textarea

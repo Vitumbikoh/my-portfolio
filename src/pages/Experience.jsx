@@ -93,11 +93,11 @@ const Experience = () => {
       <div className="container mx-auto px-6 lg:px-20 max-w-6xl">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+          <h1 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
             Professional Experience
-          </h2>
+          </h1>
           <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-light text-gray-600 max-w-3xl mx-auto leading-relaxed">
             A comprehensive journey through roles that have shaped my expertise in technology, 
             development, and system optimization
           </p>
@@ -131,7 +131,7 @@ const Experience = () => {
                   <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
                     <div>
                       <div className="flex items-center gap-3 mb-2">
-                        <h3 className="text-2xl font-bold text-gray-900">
+                        <h3 className="text-xl font-semibold text-gray-900">
                           {exp.role}
                         </h3>
                         {exp.current && (
@@ -167,7 +167,7 @@ const Experience = () => {
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {/* Skills */}
                     <div>
-                      <h4 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
+                      <h4 className="text-base font-medium text-gray-900 mb-3 flex items-center">
                         <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
                         Key Skills
                       </h4>
@@ -185,7 +185,7 @@ const Experience = () => {
 
                     {/* Achievements */}
                     <div>
-                      <h4 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
+                      <h4 className="text-base font-medium text-gray-900 mb-3 flex items-center">
                         <span className="w-2 h-2 bg-green-600 rounded-full mr-2"></span>
                         Key Achievements
                       </h4>

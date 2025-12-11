@@ -119,11 +119,11 @@ const Projects = () => {
       <div className="container mx-auto px-6 lg:px-20 max-w-7xl">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+          <h1 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
             Portfolio Projects
-          </h2>
+          </h1>
           <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-light text-gray-600 max-w-3xl mx-auto leading-relaxed">
             A showcase of innovative solutions I've crafted, spanning web development, 
             full-stack applications, and digital transformation projects
           </p>
@@ -169,7 +169,7 @@ const Projects = () => {
               
               {/* Project Details */}
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-blue-700 transition-colors">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 hover:text-blue-700 transition-colors">
                   {project.title}
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
@@ -192,7 +192,7 @@ const Projects = () => {
                 
                 {/* Features */}
                 <div className="mb-6">
-                  <h4 className="text-sm font-semibold text-gray-800 mb-2">Key Features:</h4>
+                  <h4 className="text-sm font-medium text-gray-800 mb-2">Key Features:</h4>
                   <ul className="grid grid-cols-2 gap-1">
                     {project.features.slice(0, 4).map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center text-xs text-gray-600">

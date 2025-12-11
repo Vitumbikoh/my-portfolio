@@ -7,11 +7,11 @@ const Services = () => {
     <div className="container mx-auto px-6 lg:px-20 max-w-7xl">
       {/* Header Section */}
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+        <h1 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
           Services I Offer
-        </h2>
+        </h1>
         <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
-        <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl font-light text-gray-600 max-w-3xl mx-auto leading-relaxed">
           Comprehensive digital solutions tailored to elevate your business
         </p>
       </div>
@@ -22,7 +22,7 @@ const Services = () => {
           <div className="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
             <FontAwesomeIcon icon={faCode} className="text-blue-700 text-3xl" />
           </div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">
             Web Development
           </h3>
           <p className="text-gray-600 leading-relaxed text-lg">
@@ -35,7 +35,7 @@ const Services = () => {
           <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
             <FontAwesomeIcon icon={faMobileAlt} className="text-green-700 text-3xl" />
           </div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">
             Mobile Development
           </h3>
           <p className="text-gray-600 leading-relaxed text-lg">
@@ -48,7 +48,7 @@ const Services = () => {
           <div className="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
             <FontAwesomeIcon icon={faPaintBrush} className="text-purple-700 text-3xl" />
           </div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">
             UI/UX Design
           </h3>
           <p className="text-gray-600 leading-relaxed text-lg">
