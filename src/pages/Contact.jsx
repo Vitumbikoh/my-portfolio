@@ -38,7 +38,7 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
           {/* Contact Details */}
-          <div className="bg-white p-10 rounded-2xl shadow-xl flex flex-col h-full border border-gray-100">
+          <div className="bg-white p-10 rounded-lg shadow-sm flex flex-col h-full">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">Get in Touch</h3>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Feel free to reach out via email, phone, or connect with me on social media. 
@@ -137,7 +137,7 @@ const Contact = () => {
           {/* Contact Form */}
           <form
             onSubmit={handleSubmit}
-            className="bg-white p-10 rounded-2xl shadow-xl flex flex-col h-full border border-gray-100"
+            className="bg-white p-10 rounded-lg shadow-sm flex flex-col h-full"
           >
             <h3 className="text-3xl font-bold text-gray-900 mb-4">Send a Message</h3>
             <p className="text-gray-600 mb-8 leading-relaxed">

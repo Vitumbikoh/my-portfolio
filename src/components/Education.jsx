@@ -66,7 +66,7 @@ const Education = () => {
               {educationDetails.map((edu, index) => (
                 <motion.div
                   key={index}
-                  className="bg-white border-l-4 border-blue-600 shadow-xl rounded-2xl p-8 transition duration-300 hover:shadow-2xl border border-gray-100"
+                  className="bg-white shadow-sm rounded-lg p-8 transition duration-300 hover:shadow-md"
                   variants={fadeInUp}
                 >
                   <h4 className="text-2xl font-bold text-gray-900 mb-2">{edu.degree}</h4>
@@ -88,7 +88,7 @@ const Education = () => {
               {certifications.map((cert, index) => (
                 <motion.div
                   key={index}
-                  className="bg-white border-l-4 border-green-600 shadow-xl rounded-2xl p-8 transition duration-300 hover:shadow-2xl border border-gray-100"
+                  className="bg-white shadow-sm rounded-lg p-8 transition duration-300 hover:shadow-md"
                   variants={fadeInUp}
                 >
                   <h4 className="text-2xl font-bold text-gray-900 mb-2">{cert.title}</h4>

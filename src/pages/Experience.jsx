@@ -126,7 +126,7 @@ const Experience = () => {
                 </div>
 
                 {/* Experience Card */}
-                <div className="ml-16 bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 w-full">
+                <div className="ml-16 bg-white rounded-lg shadow-sm p-8 hover:shadow-md transition-all duration-300 transform hover:-translate-y-0.5 w-full">
                   {/* Header */}
                   <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
                     <div>
@@ -206,7 +206,7 @@ const Experience = () => {
         </div>
 
         {/* Summary Statistics */}
-        <div className="mt-16 bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+        <div className="mt-16 bg-white rounded-lg shadow-sm p-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold text-blue-600 mb-2">6+</div>

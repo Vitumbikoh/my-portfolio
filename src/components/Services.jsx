@@ -18,7 +18,7 @@ const Services = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Service Card 1 */}
-        <div className="bg-white shadow-xl rounded-2xl p-10 text-center hover:shadow-2xl hover:-translate-y-1 transform transition duration-300 ease-in-out border border-gray-100">
+        <div className="bg-white shadow-sm rounded-lg p-10 text-center hover:shadow-md hover:-translate-y-0.5 transform transition duration-300 ease-in-out">
           <div className="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
             <FontAwesomeIcon icon={faCode} className="text-blue-700 text-3xl" />
           </div>
@@ -31,7 +31,7 @@ const Services = () => {
         </div>
 
         {/* Service Card 2 */}
-        <div className="bg-white shadow-xl rounded-2xl p-10 text-center hover:shadow-2xl hover:-translate-y-1 transform transition duration-300 ease-in-out border border-gray-100">
+        <div className="bg-white shadow-sm rounded-lg p-10 text-center hover:shadow-md hover:-translate-y-0.5 transform transition duration-300 ease-in-out">
           <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
             <FontAwesomeIcon icon={faMobileAlt} className="text-green-700 text-3xl" />
           </div>
@@ -44,7 +44,7 @@ const Services = () => {
         </div>
 
         {/* Service Card 3 */}
-        <div className="bg-white shadow-xl rounded-2xl p-10 text-center hover:shadow-2xl hover:-translate-y-1 transform transition duration-300 ease-in-out border border-gray-100">
+        <div className="bg-white shadow-sm rounded-lg p-10 text-center hover:shadow-md hover:-translate-y-0.5 transform transition duration-300 ease-in-out">
           <div className="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
             <FontAwesomeIcon icon={faPaintBrush} className="text-purple-700 text-3xl" />
           </div>

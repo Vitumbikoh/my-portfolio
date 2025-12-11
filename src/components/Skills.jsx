@@ -21,7 +21,7 @@ const Skills = () => {
         {/* Skills Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Technical Skills */}
-          <div className="bg-white shadow-xl rounded-2xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white shadow-sm rounded-lg p-8 hover:shadow-md transition-all duration-300">
             <div className="flex items-center mb-6">
               <div className="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
               <h3 className="text-2xl font-bold text-gray-900">
@@ -53,7 +53,7 @@ const Skills = () => {
           </div>
 
           {/* IT Skills */}
-          <div className="bg-white shadow-xl rounded-2xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white shadow-sm rounded-lg p-8 hover:shadow-md transition-all duration-300">
             <div className="flex items-center mb-6">
               <div className="w-3 h-3 bg-green-600 rounded-full mr-3"></div>
               <h3 className="text-2xl font-bold text-gray-900">
@@ -81,7 +81,7 @@ const Skills = () => {
           </div>
 
           {/* Soft Skills */}
-          <div className="bg-white shadow-xl rounded-2xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white shadow-sm rounded-lg p-8 hover:shadow-md transition-all duration-300">
             <div className="flex items-center mb-6">
               <div className="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
               <h3 className="text-2xl font-bold text-gray-900">

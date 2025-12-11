@@ -16,7 +16,7 @@ const About = () => {
         </div>
 
         {/* Main Content Section */}
-        <div className="bg-white rounded-2xl shadow-xl overflow-hidden mb-16">
+        <div className="bg-white rounded-lg shadow-sm overflow-hidden mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-0">
             {/* Profile Image Section */}
             <div className="lg:col-span-2 relative overflow-hidden">
@@ -89,7 +89,7 @@ const About = () => {
                 icon: "⚡"
               }
             ].map((competency, index) => (
-              <div key={index} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-100">
+              <div key={index} className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-all duration-300">
                 <div className="text-4xl mb-4 text-center">{competency.icon}</div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-4 text-center">
                   {competency.title}
@@ -147,7 +147,7 @@ const About = () => {
                 technologies: ["Flutter", "Dart", "Firebase"]
               }
             ].map((experience, index) => (
-              <div key={index} className="border-l-4 border-blue-600 pl-8 relative">
+              <div key={index} className="pl-8 relative">
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h4 className="text-xl font-semibold text-gray-900 mb-2">
