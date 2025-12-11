@@ -16,7 +16,7 @@ const Education = () => {
     {
       institution: "Malawi University of Science and Technology",
       degree: "BSc in Business Information Technology",
-      duration: "2018 - 2022",
+      duration: "2019 - 2024",
       description:
         "Graduated with hands-on experience in IT, web development, and ICT system optimization.",
     },
