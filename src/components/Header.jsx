@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from './Logo';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,9 +8,8 @@ const Header = () => {
     <header className="bg-gray-800 text-white sticky top-0 z-50 shadow-lg">
       <nav className="container mx-auto flex justify-between items-center py-5 px-4 lg:px-20">
         {/* Logo */}
-        <Link to="/" className="flex items-center space-x-3">
-          <Logo size="md" />
-          <h1 className="text-xl font-bold hidden md:block">Matthews Gondwe</h1>
+        <Link to="/">
+          <h1 className="text-2xl font-bold ">Matthews Gondwe</h1>
         </Link>
         {/* Hamburger Menu for Mobile */}
         <div
