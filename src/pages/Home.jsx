@@ -60,7 +60,7 @@ const Home = () => {
                 </a>
 
                 <a
-                  href="/MatthewsGondweCV.pdf"
+                  href="/Matthews Gondwe Software-Developer-CV.pdf"
                   download
                   className="bg-gray-800 text-white px-6 py-3 rounded-full shadow-md hover:bg-gray-700 hover:-translate-y-1 transform transition text-sm md:text-base"
                 >
@@ -87,15 +87,17 @@ const Home = () => {
       </motion.div>
 
       {/* Services Section */}
-      <motion.div variants={fadeInUp}>
+      <motion.div className="bg-white py-20" variants={fadeInUp}>
         <Services />
       </motion.div>
 
-      {/* Skills and Education Section */}
-      <motion.div className="mt-16" variants={fadeInUp}>
+      {/* Skills Section */}
+      <motion.div className="bg-gradient-to-br from-slate-50 to-gray-100 py-20" variants={fadeInUp}>
         <Skills />
       </motion.div>
-      <motion.div className="mt-16" variants={fadeInUp}>
+      
+      {/* Education Section */}
+      <motion.div className="bg-white py-20" variants={fadeInUp}>
         <Education />
       </motion.div>
     </section>

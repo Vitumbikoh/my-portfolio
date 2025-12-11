@@ -2,88 +2,172 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="bg-white py-16">
-      <div className="container mx-auto px-6 lg:px-20">
-        <h2 className="text-4xl font-serif font-bold text-gray-900 pl-4 text-center mb-12">About Me</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
-          {/* Profile Image */}
-          <div className="flex justify-center">
-            <img
-              src="/Banner.jpg"
-              alt="Matthews Gondwe"
-              className="w-80 h-96 shadow-lg border-4 border-blue-600 object-cover"
-            />
-          </div>
+    <section id="about" className="bg-gradient-to-br from-slate-50 to-gray-100 py-20">
+      <div className="container mx-auto px-6 lg:px-20 max-w-7xl">
+        {/* Header Section */}
+        <div className="text-center mb-16">
+          <h2 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+            About Me
+          </h2>
+          <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
+          <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
+            Passionate IT Professional | Software Developer | Technology Innovator
+          </p>
+        </div>
 
-          {/* About Section Text */}
-          <div className="col-span-2 text-gray-700 text-lg leading-relaxed">
-            <p>
-              Hello! My name is Matthews Gondwe, a passionate and highly motivated IT professional
-              with a strong background in software development, IT infrastructure, and system optimization.
-              I hold a Bachelor's degree in <span className="font-semibold">Business Information Technology</span>
-              from <span className="font-semibold">Malawi University of Science and Technology</span>. My expertise spans various
-              areas, including web and mobile application development, system administration, and cloud computing.
-            </p>
-            <p className="mt-4">
-              My journey into technology started with a deep curiosity for how digital systems operate and how they can be optimized
-              to solve real-world problems. I am driven by innovation, problem-solving, and the desire to build efficient, scalable solutions
-              that improve businesses and people's lives. My long-term goal is to contribute to impactful projects in software development,
-              cloud computing, and emerging technologies like IoT and AI.
-            </p>
-            <p className="mt-4">
-              Over the years, I have worked on various projects, from full-stack web applications
-              to IoT integrations, showcasing my adaptability and innovative problem-solving skills.
-              My key focus areas include:
-            </p>
-            <ul className="list-disc ml-6 mt-4 space-y-2">
-              <li>Developing scalable full-stack applications using React, Next.js, Express, Laravel, and MySQL.</li>
-              <li>Building mobile applications using Flutter for dynamic user experiences.</li>
-              <li>Implementing and managing IT infrastructure, including Linux servers and Apache deployments.</li>
-              <li>Automating software deployment and API testing.</li>
-              <li>Leveraging cloud services such as Firebase and Google Cloud for seamless solutions.</li>
-            </ul>
+        {/* Main Content Section */}
+        <div className="bg-white rounded-2xl shadow-xl overflow-hidden mb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-0">
+            {/* Profile Image Section */}
+            <div className="lg:col-span-2 relative overflow-hidden">
+              <img
+                src="/Banner.jpg"
+                alt="Matthews Gondwe"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-4 right-4 bg-white rounded-full p-2 shadow-lg">
+                <div className="w-4 h-4 bg-green-500 rounded-full"></div>
+              </div>
+            </div>
+
+            {/* About Text Section */}
+            <div className="lg:col-span-3 p-10">
+              <h3 className="text-2xl font-serif font-semibold text-gray-900 mb-6">
+                Matthews Gondwe
+              </h3>
+              
+              <div className="prose prose-lg text-gray-700 leading-relaxed space-y-6">
+                <p className="text-lg">
+                  Hello! I am <span className="font-semibold text-blue-700">Matthews Gondwe</span>, a passionate and highly motivated IT professional
+                  with extensive experience in software development, IT infrastructure, and system optimization.
+                  I hold a Bachelor's degree in <span className="font-semibold">Business Information Technology</span>
+                  from <span className="font-semibold">Malawi University of Science and Technology</span>.
+                </p>
+                
+                <p>
+                  My expertise encompasses web and mobile application development, system administration, 
+                  and cloud computing solutions. I am driven by innovation, problem-solving, and the desire 
+                  to build efficient, scalable solutions that transform businesses and enhance people's lives.
+                </p>
+                
+                <p>
+                  My long-term vision is to contribute to impactful projects in software development,
+                  cloud computing, and emerging technologies such as IoT and Artificial Intelligence,
+                  while continuously pushing the boundaries of technological innovation.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
-        {/* Skills and Experience Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12">
-          <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Technical Skills</h3>
-            <ul className="list-disc ml-6 space-y-2 text-gray-700">
-              <li>Frontend Development: React, Next.js, Tailwind CSS</li>
-              <li>Backend Development: Laravel, Express.js, Node.js</li>
-              <li>Mobile Development: Flutter (Dart)</li>
-              <li>Databases: MySQL, PostgreSQL, Firebase</li>
-              <li>Programming Languages: JavaScript, PHP, Python, Dart, Java</li>
-              <li>Cloud Computing: Firebase, Google Cloud</li>
-              <li>Deployment & Infrastructure: Linux, Apache, Ngrok</li>
-              <li>Testing & Debugging: API Testing, Jest, Postman</li>
-            </ul>
+        {/* Core Competencies */}
+        <div className="mb-16">
+          <h3 className="text-3xl font-serif font-bold text-center text-gray-900 mb-12">
+            Core Competencies
+          </h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+            {[
+              {
+                title: "Full-Stack Development",
+                skills: ["React & Next.js", "Laravel & Express.js", "MySQL & PostgreSQL", "API Development"],
+                icon: "💻"
+              },
+              {
+                title: "Mobile Development",
+                skills: ["Flutter (Dart)", "Cross-platform Apps", "UI/UX Design", "Payment Integration"],
+                icon: "📱"
+              },
+              {
+                title: "Cloud & Infrastructure",
+                skills: ["Firebase & Google Cloud", "Linux Server Management", "Apache Deployment", "System Optimization"],
+                icon: "☁️"
+              },
+              {
+                title: "Programming Languages",
+                skills: ["JavaScript & TypeScript", "PHP & Python", "Dart & Java", "Modern Frameworks"],
+                icon: "⚡"
+              }
+            ].map((competency, index) => (
+              <div key={index} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-100">
+                <div className="text-4xl mb-4 text-center">{competency.icon}</div>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4 text-center">
+                  {competency.title}
+                </h4>
+                <ul className="space-y-2">
+                  {competency.skills.map((skill, skillIndex) => (
+                    <li key={skillIndex} className="text-sm text-gray-600 flex items-center">
+                      <span className="w-2 h-2 bg-blue-600 rounded-full mr-3 flex-shrink-0"></span>
+                      {skill}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
-          <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Key Professional Experience</h3>
-            <ul className="list-disc ml-6 space-y-2 text-gray-700">
-              <li>
-                <span className="font-semibold">Web Developer (Asodzi Photography)</span>: Designed and deployed
-                an interactive portfolio website for a photography business.
-              </li>
-              <li>
-                <span className="font-semibold">Full-Stack Developer (MUST Library Website)</span>: Developed and deployed
-                a comprehensive digital library system with Next.js and MySQL.
-              </li>
-              <li>
-                <span className="font-semibold">IoT & System Optimization</span>: Integrated IoT solutions
-                for business process automation and efficiency enhancement.
-              </li>
-              <li>
-                <span className="font-semibold">Restaurant Seat Reservation System</span>: Engineered a dynamic
-                seating reservation system with backend API and database integration.
-              </li>
-              <li>
-                <span className="font-semibold">Flutter E-Commerce App</span>: Built a cross-platform mobile
-                application for online shopping with payment integration.
-              </li>
-            </ul>
+        </div>
+
+        {/* Professional Experience */}
+        <div className="bg-white rounded-2xl shadow-xl p-10">
+          <h3 className="text-3xl font-serif font-bold text-center text-gray-900 mb-12">
+            Professional Experience
+          </h3>
+          
+          <div className="space-y-8">
+            {[
+              {
+                role: "Assistant Technical Officer",
+                company: "MFI HUB LIMITED",
+                period: "March 2025 - Present",
+                description: "System development, user support and analysis. Responsible for system user training (tutoring) and providing comprehensive technical support to ensure optimal system performance.",
+                technologies: ["System Development", "User Training", "Technical Support"]
+              },
+              {
+                role: "Web Developer",
+                company: "Asodzi Photography",
+                description: "Designed and deployed an interactive portfolio website for a photography business, focusing on visual storytelling and user experience.",
+                technologies: ["React", "Tailwind CSS", "JavaScript"]
+              },
+              {
+                role: "Full-Stack Developer",
+                company: "MUST Library Website",
+                description: "Developed and deployed a comprehensive digital library system with advanced search capabilities and user management.",
+                technologies: ["Next.js", "MySQL", "Node.js"]
+              },
+              {
+                role: "IoT & System Integration Specialist",
+                company: "Various Projects",
+                description: "Integrated IoT solutions for business process automation and efficiency enhancement across multiple industries.",
+                technologies: ["IoT", "Python", "Cloud Services"]
+              },
+              {
+                role: "Mobile App Developer",
+                company: "E-Commerce Platform",
+                description: "Built a cross-platform mobile application for online shopping with seamless payment integration and real-time inventory management.",
+                technologies: ["Flutter", "Dart", "Firebase"]
+              }
+            ].map((experience, index) => (
+              <div key={index} className="border-l-4 border-blue-600 pl-8 relative">
+                <div className="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                    {experience.role}
+                  </h4>
+                  <p className="text-blue-700 font-medium mb-1">{experience.company}</p>
+                  {experience.period && (
+                    <p className="text-gray-500 text-sm font-medium mb-3">{experience.period}</p>
+                  )}
+                  <p className="text-gray-700 mb-4 leading-relaxed">{experience.description}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {experience.technologies.map((tech, techIndex) => (
+                      <span key={techIndex} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -4,54 +4,111 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-gray-50 py-16 px-4 lg:px-20"
+      className="py-0"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto px-6 lg:px-20 max-w-7xl">
         {/* Header */}
-        <h2 className="text-4xl font-serif font-bold text-gray-900  pl-4 text-center">
-          Skills & Expertise
-        </h2>
+        <div className="text-center mb-16">
+          <h2 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+            Skills & Expertise
+          </h2>
+          <div className="w-24 h-1 bg-blue-700 mx-auto mb-6"></div>
+          <p className="text-xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">
+            Technical proficiency across modern development stack and methodologies
+          </p>
+        </div>
 
         {/* Skills Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Technical Skills */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-2xl font-semibold text-blue-500 mb-4">
-              Technical Skills
-            </h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-              <li>Web Development (HTML, CSS, JavaScript, React, Tailwind CSS)</li>
-              <li>Backend Development (Laravel, PHP, Node.js)</li>
-              <li>Database Management (MySQL, Firebase Firestore)</li>
-              <li>API Development and Integration</li>
-              <li>Automated Testing for Laravel APIs</li>
+          <div className="bg-white shadow-xl rounded-2xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300">
+            <div className="flex items-center mb-6">
+              <div className="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
+              <h3 className="text-2xl font-bold text-gray-900">
+                Technical Skills
+              </h3>
+            </div>
+            <ul className="space-y-3">
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Web Development (HTML, CSS, JavaScript, React, Tailwind CSS)</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Backend Development (Laravel, PHP, Node.js)</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Database Management (MySQL, Firebase Firestore)</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>API Development and Integration</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Automated Testing for Laravel APIs</span>
+              </li>
             </ul>
           </div>
 
           {/* IT Skills */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-2xl font-semibold text-teal-600 mb-4">
-              IT Skills
-            </h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-              <li>System Administration and IT Infrastructure Services</li>
-              <li>ICT Systems Analysis and Optimization</li>
-              <li>Software Installation and Troubleshooting</li>
-              <li>IT Support and Helpdesk</li>
+          <div className="bg-white shadow-xl rounded-2xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300">
+            <div className="flex items-center mb-6">
+              <div className="w-3 h-3 bg-green-600 rounded-full mr-3"></div>
+              <h3 className="text-2xl font-bold text-gray-900">
+                IT Skills
+              </h3>
+            </div>
+            <ul className="space-y-3">
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>System Administration and IT Infrastructure Services</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>ICT Systems Analysis and Optimization</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Software Installation and Troubleshooting</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>IT Support and Helpdesk</span>
+              </li>
             </ul>
           </div>
 
           {/* Soft Skills */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-2xl font-semibold text-red-600 mb-4">
-              Soft Skills
-            </h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-              <li>Team Collaboration</li>
-              <li>Problem Solving and Critical Thinking</li>
-              <li>Attention to Detail</li>
-              <li>Adaptability</li>
-              <li>Time Management</li>
+          <div className="bg-white shadow-xl rounded-2xl p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300">
+            <div className="flex items-center mb-6">
+              <div className="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+              <h3 className="text-2xl font-bold text-gray-900">
+                Soft Skills
+              </h3>
+            </div>
+            <ul className="space-y-3">
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Team Collaboration</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Problem Solving and Critical Thinking</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Attention to Detail</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Adaptability</span>
+              </li>
+              <li className="flex items-start text-gray-700">
+                <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <span>Time Management</span>
+              </li>
             </ul>
           </div>
 
