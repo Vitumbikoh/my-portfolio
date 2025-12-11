@@ -1,10 +1,14 @@
 import React from "react";
+import Logo from './Logo';
 import { FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-6">
       <div className="container mx-auto flex flex-col items-center">
+        <div className="mb-4">
+          <Logo size="md" />
+        </div>
         <p className="text-lg font-semibold">&copy; {new Date().getFullYear()} Matthews Gondwe. All rights reserved.</p>
 
         {/* Social Links */}

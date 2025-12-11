@@ -26,6 +26,15 @@ const Contact = () => {
       <div className="container mx-auto px-6 lg:px-20">
         {/* Header Section */}
         <div className="text-center mb-16">
+          <div className="flex justify-center mb-6">
+            <div className="w-24 h-24 rounded-full overflow-hidden shadow-lg">
+              <img
+                src="/Banner.jpg"
+                alt="Matthews Gondwe"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
           <h1 className="text-5xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
             Contact Me
           </h1>
